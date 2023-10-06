@@ -1,0 +1,330 @@
+NAME: ABHISHEK GAUD
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques1>  Write a program to check whether a number is negative, positive or zero
+
+
+public class Main
+{
+	public static void main(String[] args){ 
+		int n= 0;
+		     if (n>0 ){
+		         System.out.println("positive");
+		     }else if (n<0){
+		         System.out.println("negative");
+		     }else {
+		         System.out.println("zero");
+		     }
+}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques2>  Write a program to input any alphabet and check whether it is vowel or consonant
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		char ch = 'r';
+		if(ch=='a'|| ch=='i'|| ch=='e'|| ch=='o'|| ch=='u'){
+		    System.out.println("vowel");
+		}else{
+		    System.out.println("consonent");
+		}
+}}
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques3> Write a program to check whether a character is uppercase or lowercase alphabet
+
+public class Main
+{
+	public static void main(String[] args) {
+		char ch ='Z';
+		if(ch>='a'&& ch<='z'){
+		    System.out.println("lowercase");
+		}else if (ch>='A'&& ch<='Z'){
+		    System.out.println("Uppercase");
+		}
+	
+}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>4 Write a program to input all angles of a triangle and check whether triangle is valid or not
+
+public class Main
+{
+	public static void main(String[] args) {
+		int a=60;
+		int b=70;
+		int c=50;
+		int sum= a+b+c;
+		   if(sum==180){
+		       System.out.println("valid traingle");
+		   }else{
+		       System.out.println("not valid");
+		   }
+	
+}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>5 Write a program to input month number and print month Name
+
+public class Main
+{
+	public static void main(String[] args) {
+		int n=12;
+		if(n==1){
+		    System.out.println("jan");
+		}else if (n==2){
+		    System.out.println("feb");
+		    
+		}else if (n==3){
+		    System.out.println("march");
+		}else if (n==4){
+		    System.out.println("apr");
+		}else if ( n==5){
+		    System.out.println("may");
+		}else if (n==6){
+		    System.out.println("jun");
+		}else if (n==7){
+		    System.out.println("july");
+		}else if (n==8){
+		    System.out.println("aug");
+		}else if (n==9){
+		    System.out.println("sep");
+		}else if ( n==10){
+		    System.out.println("oct");
+		}else if (n==11){
+		    System.out.println("nov");
+		}else if (n==12){
+		    System.out.println("dec");
+		}else{
+		    System.out.println("not valid");
+		}
+		    
+		}
+}
+
+
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>6 Write a program to check whether the triangle is equilateral, isosceles or scalene triangle
+
+public class Main
+{
+	public static void main(String[] args) {
+		int a=90;
+		int b=60;
+		int c=60;
+	      if(a==b){
+	            if (a==c){
+	                 System.out.println("equilateral");
+	            }else{ 
+	                 System.out.println("isolated");
+            	}
+	}else if (a==c){
+	    System.out.println("isolated");
+	}else if (b==c){
+	    System.out.println("Isolated");
+	}else {
+	    System.out.println("scalen");
+	}
+       }
+}    
+	  
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>7 Write a program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following: 
+Percentage >= 90%: Grade A
+Percentage >= 80%: Grade B
+Percentage >= 70%: Grade C
+Percentage >= 60%: Grade D
+Percentage >= 40%: Grade E     
+Percentage < 40%: Grade F
+
+public class Main
+{
+	public static void main(String[] args) {
+		int physics = 42;
+		int chemistry= 47;
+		int bio = 47;
+		int maths= 47;
+		int computer=50;
+		int sum=physics+chemistry+bio+maths+computer;
+		int percentage=sum/5;
+		          if(percentage>90){
+		              System.out.println("grade A");
+		          }else if(percentage>80) {
+		              System.out.println("grade B");
+	
+                  }else if (percentage>70){
+                      System.out.println("grade C");
+                    }else if (percentage>60){
+                        System.out.println("grade D");
+                    }else if(percentage>50){
+                          System.out.println("grade E");    
+                      }else if (percentage>40){
+                          System.out.println("grade F");
+                      }
+	}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>8  If the ages of Ram, Shyam and Ajay are input through the keyboard, write a program to determine the youngest of the three
+public class Main
+{
+	public static void main(String[] args) {
+		int  r  =67;
+		int   m = 30;
+		int  h= 40;
+		
+		if (r<m){
+		    if(r<h){
+		        System.out.println("r");
+		    }else  {
+		        System.out.println("h");
+		    }    
+		    }else if (m<h){
+		        System.out.println("m");
+		    }else{
+		        System.out.println("h");
+		    }
+		}}
+	
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->9
+Ques>9 Write a Java program that accepts three numbers and check All numbers are equal or not
+
+public class Main
+{
+	public static void main(String[] args) {
+		int a=6;
+		int b=6;
+		int c=6;
+	if (a==b&& a==c && b==c){
+	    System.out.println("equal");
+	}else{
+	    System.out.println(" Not equal");
+	}
+}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>1o Write a Java program to check whether the given integer is a multiple of 5
+
+public class Main
+{
+	public static void main(String[] args) {
+	int n=40;
+	if(n%5==0){
+	    System.out.println("yes");
+	}else {
+	    System.out.println("no");
+	}
+	
+}}
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>11  Write a Java program to check whether the given integer is a multiple of 5 and 7 
+public class Main
+{
+	public static void main(String[] args) {
+		int n=35;
+	if(n%5==0 && n%7==0){
+	    System.out.println("yes");
+	}else {
+	    System.out.println("no");
+	}
+	
+}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>12 Write a java program to find days in a month (Take input of Year and Month(number) ) 
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		
+		//taking input from the user .
+		
+		System.out.println("Enter the number of month: ");
+		int month = sc.nextInt();
+		
+		System.out.println("Enter the number of year: ");
+		int year = sc.nextInt();
+		
+		
+		if(month==4|| month==6|| month==9 || month==11){
+		    System.out.println(" days are 30");
+		}else if(month==1||month==3||month==5||month==7 || month==8|| month==10|| month==11){
+	          System.out.println(" days are 31");
+          }else if(month==2){
+              if(year%4==0){
+                  System.out.println("days are 29");
+              }else{
+                  System.out.println("days are 28");
+              } 
+            }
+    }          
+} 
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>13 write a java program to find the sum of n natural number 
+public class Main
+{
+	public static void main(String[] args) {
+		int n=5;
+	int sum=n*(n+1)/2;
+	System.out.println(sum);
+}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>14 write a program to check weather a given character is a Alphabet or not
+public class Main
+{
+	public static void main(String[] args) {
+		char ch ='a';
+		       if ((ch>='a' && ch<='z') || (ch>='A'&& ch<='Z')){
+		            System.out.println("alphabet");
+		       }else {
+		           System.out.println("not alphabet");
+		       }
+}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>16 You are given with 2 integer that is length and breadth of rectangle , check weather the area or perimeter which is greater 
+public class Main
+{
+	public static void main(String[] args) {
+		int l=2;
+		int b=4;
+		int area =l*b;
+		System.out.println(area);
+		int perimeter=2*(l+b);
+		System.out.println(perimeter);
+		    if(area>perimeter){
+		        System.out.println("area is greater");
+		    }else {
+                     System.out.println("perimeter is greater");
+		    }
+		
+	
+}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Ques>18  Write a Java program to create a simple calculator for calculating a two number calculations 
+
+public class Main
+{
+	public static void main(String[] args) {
+	int num1=2;
+	int num2=3;
+	char ch='*';
+	if(ch=='+'){
+	    System.out.println(num1+num2);
+	}else if (ch=='-'){
+	    System.out.println(num1-num2);
+	}else if (ch=='*'){
+	    System.out.println(num1*num2);
+	}else if (ch=='/'){
+	    System.out.println(num1/num2);
+	}
+	
+}}
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
